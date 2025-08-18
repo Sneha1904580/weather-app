@@ -1,0 +1,95 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  color: #333;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+input {
+  padding: 6px;
+  width: 60%;
+}
+
+button {
+  margin: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 15px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.recent button {
+  margin: 2px;
+  background: #ddd;
+  border: none;
+  border-radius: 4px;
+}
+
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.default {
+  background-color: #ffffff;
+}
+
+
+.clear {
+  background: linear-gradient(to bottom, #00bfff, #1e90ff);
+  color: white;
+}
+
+
+.clear input,
+.clear button {
+  background: white;
+  color: #000;
+  border: none;
+}
+
+.clear .result {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+
+.clouds {
+  background-color: #d3d3d3;
+  color: #333;
+}
+
+.rain {
+  background-color: #a9a9a9;
+  color: #fff;
+}
+
+
+.snow {
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+
+.spin {
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
